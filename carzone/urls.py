@@ -22,4 +22,5 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pages.urls')), # Change PR01002
+    path('cars/', include('cars.urls')), # PR01006 - Create Cars App
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # Change PR01003
