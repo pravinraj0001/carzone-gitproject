@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ckeditor', #PR01008 - RichText Editor
+    'django.contrib.humanize', #PR01009 - Featured Cars Dashboard
 ]
 
 MIDDLEWARE = [
