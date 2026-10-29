@@ -1,0 +1,27 @@
+#header{
+    background-color: #8b3d3d !important;
+    color: #f1e31a !important;
+    box-shadow: 0px 0px 3px 0px #ff0000;
+}
+
+#header a:link, #header a:visited{
+    color: #180e0e !important;
+}
+
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+
+    /* Colors */
+    background-color: #1e3a8a; /* Dark blue */
+    color: white;              /* Text color */
+
+    padding: 10px;
+}
+ol.breadcrumbs {
+    background-color: #7a8a1e; /* Blue background */
+    color: rgb(39, 8, 8);              /* Text color */
+    padding: 15px 30px;
+    border-radius: 5px;
+}
